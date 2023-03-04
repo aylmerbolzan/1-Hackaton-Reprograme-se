@@ -37,13 +37,6 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 - Propôr funções de acessibilidade
   <br>💡 Usar dark theme
 
-# Links Úteis
-
-- Começa a apresentação: https://youtu.be/p06UqMYOJw4?t=1011
-- Começa a falar sobre o trabalho: https://youtu.be/p06UqMYOJw4?t=1419
-- Link do briefing: https://ava3.cefor.ifes.edu.br/pluginfile.php/85560/mod_resource/content/1/Briefing.pdf
-- Código base - Replit: https://replit.com/team/hackathon-2023
-
 # Estrutura
 
 <br>📌 O Programa
@@ -70,9 +63,14 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 <br>
 <br>📌 Contato
 
----
+# Links Úteis
 
-## Recursos
+- Começa a apresentação: https://youtu.be/p06UqMYOJw4?t=1011
+- Começa a falar sobre o trabalho: https://youtu.be/p06UqMYOJw4?t=1419
+- Link do briefing: https://ava3.cefor.ifes.edu.br/pluginfile.php/85560/mod_resource/content/1/Briefing.pdf
+- Código base - Replit: https://replit.com/team/hackathon-2023
+
+# Recursos e Ideias
 
 - Accordion - https://github.com/aylmerbolzan/Short-Tips/tree/master/Accordion
 
@@ -102,9 +100,25 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 
 - Incluir favicon
 
+- Incluir aviso de LGPD
+
+- Incluir ícones de rede social
+
+- Incluir campo para cadastro em newsletter
+
+# Referências
+
+- Reprograme-se: https://reprograme-se.org.br
+- Orange Juice: https://digital.fcamara.com.br/orangejuice
+- Azys: https://azys.com.br
+- RocketSeat: https://www.rocketseat.com.br
+- Hora de Codar: https://horadecodar.com.br
+- Oracle Next Education: https://www.oracle.com/br/education/oracle-next-education/
+
 # Logs
 
-### -- 03/03 --
+### [ 03/03 ]
+
 - Estrutura HTML montada
 - CSS, JS e Bootstrap linkados
 - Incluído favicon
