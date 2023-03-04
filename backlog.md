@@ -136,3 +136,4 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 
 - Inclusão do FAQ
 - Estilização do FAQ
+- Inclusão de Hero Section
