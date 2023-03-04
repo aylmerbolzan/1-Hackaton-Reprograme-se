@@ -106,6 +106,8 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 
 - Incluir campo para cadastro em newsletter
 
+- Configurar navbar para ficar fixa
+
 # Referências
 
 - Reprograme-se: https://reprograme-se.org.br
@@ -123,4 +125,11 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 - CSS, JS e Bootstrap linkados
 - Incluído favicon
 - Incluído meta informations
-- Head finalizado
+- Header finalizado
+- #Notícias estruturado
+
+
+### [ 04/03 ]
+
+- Inclusão do FAQ
+- 
