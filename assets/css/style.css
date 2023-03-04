@@ -152,6 +152,22 @@ a[type="button"]:hover {
   margin: 2rem 1rem;
 }
 
+table td {
+  vertical-align: middle;
+}
+
+table tr td:nth-child(1) {
+  width: 30%;
+}
+
+table tr td:nth-child(3) {
+  width: 100px;
+}
+
+table .contents {
+  text-align: start;
+}
+
 /* Notícias */
 
 #noticias {
