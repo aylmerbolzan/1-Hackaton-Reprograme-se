@@ -17,12 +17,10 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 
 - Área de depoimento de alunos
   <br>--- Com identificação
-  <br>💡 Fazer carrossel de depoimentos
 
 - FAQ
-  💡 Usar accordion - https://github.com/aylmerbolzan/Short-Tips/tree/master/Accordion
   <br>--- Base de infos: https://cachoeiro.ifes.edu.br/images/stories/2022/editais/252022/RESPOSTAS_A_PERGUNTAS_FREQUENTES.pdf
-
+  <br>💡 Usar accordion
 - Form de contato: mensagens para mailto:contato@reprograme-se.org.br
 
 - Área de informações sobre o curso, evidenciando a grade currícular
@@ -37,7 +35,7 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
   <br>--- ❗ Armazenar preferências no localStorage
 
 - Propôr funções de acessibilidade
-  <br>💡 Usar dark theme - https://github.com/aylmerbolzan/Short-Tips/tree/master/Dark%20Theme%20-%20Bootstrap
+  <br>💡 Usar dark theme
 
 # Links Úteis
 
@@ -46,18 +44,7 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 - Link do briefing: https://ava3.cefor.ifes.edu.br/pluginfile.php/85560/mod_resource/content/1/Briefing.pdf
 - Código base - Replit: https://replit.com/team/hackathon-2023
 
-# Considerações:
-
-- Configurar meta tags
-  <br>--- Meta title - `<meta name="title" content="TÍTULO">`
-  <br>--- Meta Description - `<meta name="description" content="DESCRIÇÃO">`
-  <br>--- Open Graph Imagem - `<meta property="og:image" content="URL">`
-
-- Comprimir as imagens - https://tinypng.com
-
-# Layout
-
-## Estrutura
+# Estrutura
 
 <br>📌 O Programa
 <br> Apresentar IFES + Action
@@ -82,3 +69,44 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 <br> Usar accordion
 <br>
 <br>📌 Contato
+
+---
+
+## Recursos
+
+- Accordion - https://github.com/aylmerbolzan/Short-Tips/tree/master/Accordion
+
+- Dark theme: https://github.com/aylmerbolzan/Short-Tips/tree/master/Dark%20Theme%20-%20Bootstrap
+
+- Incluir widget vLibras: inserir o code abaixo antes do fechamento do `<body>`
+
+```
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+```
+
+- Configurar meta tags
+  <br>--- Meta title - `<meta name="title" content="TÍTULO">`
+  <br>--- Meta Description - `<meta name="description" content="DESCRIÇÃO">`
+  <br>--- Open Graph Imagem - `<meta property="og:image" content="URL">`
+
+- Comprimir as imagens - https://tinypng.com
+
+- Incluir favicon
+
+# Logs
+
+### -- 03/03 --
+- Estrutura HTML montada
+- CSS, JS e Bootstrap linkados
+- Incluído favicon
+- Incluído meta informations
+- Head finalizado
