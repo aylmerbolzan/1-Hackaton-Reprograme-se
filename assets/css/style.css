@@ -1,3 +1,10 @@
+:root {
+    --accordion-title:#fff;
+    --accordion-bg-title:#579CB8;
+    --accordion-description: #9799A6;
+    --accordion-bg-description: #fff;
+}
+
 body {
   background-color: #f2f5f7;
   font-family: "Open Sans", Arial, sans-serif;
