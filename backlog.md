@@ -108,9 +108,12 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 
 - Configurar navbar para ficar fixa
 
+- Colocar `:hover` nos `.notice-box` com transição de posição 
+
 # Referências
 
 - Reprograme-se: https://reprograme-se.org.br
+- DIO: https://www.dio.me
 - Orange Juice: https://digital.fcamara.com.br/orangejuice
 - Azys: https://azys.com.br
 - RocketSeat: https://www.rocketseat.com.br
@@ -132,4 +135,4 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 ### [ 04/03 ]
 
 - Inclusão do FAQ
-- 
+- Estilização do FAQ
