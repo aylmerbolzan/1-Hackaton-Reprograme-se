@@ -22,7 +22,6 @@ main div {
 /*  Header */
 
 .header {
-  background-color: #fff;
   box-shadow: 2px 2px 4px rgba(138, 138, 138, 0.3);
 }
 
@@ -120,6 +119,7 @@ a[type="button"]:hover {
   display: flex;
   justify-content: space-between;
   gap: 5rem;
+  width: 57rem;
 }
 
 #programa h1 {
@@ -127,7 +127,7 @@ a[type="button"]:hover {
 }
 
 #programa section img {
-  width: 16rem;
+  width: 13rem;
 }
 
 #programa section p {
@@ -220,18 +220,16 @@ table .contents {
   margin-bottom: 0px;
 }
 
-/* FAQ */
-
-/* Fale Conosco */
-
 /* Patrocinadores */
 
 #patrocinadores {
   height: 50px;
+  margin-bottom: 250px;
 }
 
 #patrocinadores ul {
   list-style: none;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   display: flex;
@@ -254,6 +252,11 @@ table .contents {
 
 /* Rodapé */
 
+/* Dark Theme */
+
+#dark-btn {
+}
+
 /* Versão mobile */
 
 @media (max-width: 995px) {
@@ -263,5 +266,12 @@ table .contents {
 
   #depoimentos {
     flex-direction: column;
+  }
+  #programa {
+    display: block;
+  }
+
+  a[type="button"] {
+    bottom: -20px;
   }
 }

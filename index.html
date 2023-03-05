@@ -40,7 +40,7 @@
 
   <body>
     <header class="header">
-      <nav class="navbar bg-white navbar-expand-md">
+      <nav class="navbar navbar-expand-md">
         <div class="container">
           <img
             id="logo-nav"
@@ -62,16 +62,36 @@
               <a href="#programa" class="nav-link ms-auto link-nav"
                 >O Programa</a
               >
-              <a href="#noticias" class="nav-link ms-auto link-nav">Notícias</a>
-              <a href="#" class="nav-link ms-auto link-nav">Eventos</a>
-              <a href="#" class="nav-link ms-auto link-nav">Depoimentos</a>
+              <a href="#noticias-title" class="nav-link ms-auto link-nav"
+                >Notícias</a
+              >
+              <a href="#eventos" class="nav-link ms-auto link-nav">Eventos</a>
+              <a href="#depoimentos-title" class="nav-link ms-auto link-nav"
+                >Depoimentos</a
+              >
               <a href="#faq" class="nav-link ms-auto link-nav"
                 >Principais Dúvidas</a
               >
-              <a href="#" class="nav-link ms-auto link-nav">Fale Conosco</a>
+              <a href="#contato" class="nav-link ms-auto link-nav"
+                >Fale Conosco</a
+              >
             </div>
           </div>
         </div>
+
+        <!-- Dark Theme -->
+
+        <button
+          id="dark-btn"
+          type="button"
+          class="btn btn-secondary btn-floating ms-3"
+          onclick="toggleTheme()"
+          style="border-radius: 50%; margin-right: 20px"
+        >
+          <i class="bi bi-moon-stars"></i>
+        </button>
+
+        <!-- Fim de Dark Theme -->
       </nav>
     </header>
 
@@ -97,18 +117,11 @@
           <h1 class="display-6">O que é o <strong>Reprograme-se</strong></h1>
           <p>
             O Reprograme-se é um programa de capacitação em programação de
-            computadores e desenvolvimento de websites, totalmente gratuito e
-            com o objetivo de oferecer oportunidades de formação e recolocação
-            no mercado de trabalho na área de TI.
-          </p>
-          <p>
-            O programa conta com a participação do Instituto Federal do Espírito
-            Santo (IFES), uma instituição de excelência na formação
-            profissional, e da Associação Capixaba de Tecnologia (ACT!ON). Com
-            16 polos espalhados pelo estado, o programa oferece uma metodologia
-            ágil, flexível e orientada por projetos práticos reais, com a
-            possibilidade de ingresso em estágios nas empresas de tecnologia do
-            Estado.
+            computadores e desenvolvimento de websites, oferecido pelo Instituto
+            Federal do Espírito Santo (IFES) e pela Associação Capixaba de
+            Tecnologia (ACT!ON), totalmente gratuito e com o objetivo de
+            oferecer oportunidades de formação e recolocação no mercado de
+            trabalho na área de TI.
           </p>
         </section>
 
@@ -285,7 +298,7 @@
       </div>
 
       <div class="container">
-        <h1 class="display-6">Notícias</h1>
+        <h1 id="noticias-title" class="display-6">Notícias</h1>
         <div id="noticias" class="container">
           <div class="notice-box">
             <img
@@ -346,9 +359,17 @@
         </div>
       </div>
 
-      <div>[ Eventos ]</div>
+      <div id="eventos" class="container">
+        <h1 class="display-6">Eventos</h1>
+        <img
+          src="./assets/img/calendario.jpg"
+          alt="Calendário"
+          class="img-fluid"
+        />
+      </div>
+
       <div>
-        <h1 class="display-6">Depoimentos</h1>
+        <h1 id="depoimentos-title" class="display-6">Depoimentos</h1>
         <div id="depoimentos" class="container">
           <div class="container py-2">
             <div class="card col-xl-12 m-auto shadow">
@@ -1240,7 +1261,7 @@
     </main>
 
     <footer>
-      <div id="rodape" class="container">[ Rodapé ]</div>
+      <div id="rodape" class="container"></div>
     </footer>
 
     <script src="/assets/js/script.js"></script>
