@@ -195,6 +195,31 @@ table .contents {
 
 /* Depoimentos */
 
+#depoimentos {
+  display: flex;
+}
+
+.card-body p {
+  text-align: center;
+}
+
+.card-body p span {
+font-weight: bold;
+font-size: 15pt;
+color: var(--reprograme-se-cor1);
+font-family: 'Times New Roman', Times, serif;
+}
+
+.card-img-top {
+  max-width: 100px;
+  align-self: center;
+}
+
+.card-body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 /* FAQ */
 
 /* Fale Conosco */
@@ -232,7 +257,12 @@ table .contents {
 /* Versão mobile */
 
 @media (max-width: 995px) {
+   
   #noticias {
+    flex-direction: column;
+  }
+  
+  #depoimentos {
     flex-direction: column;
   }
 }

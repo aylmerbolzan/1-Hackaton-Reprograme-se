@@ -130,7 +130,7 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 | ----------------- | ----------------- |
 | Incluir #Noticias | ✅ |
 | Incluir #Eventos |  |
-| Incluir #Depoimentos |  |
+| Incluir #Depoimentos | ✅ |
 | Incluir #FAQ | ✅ |
 | Incluir #Contato |  |
 | Incluir botão de redirecionamento para inscrição |  |
