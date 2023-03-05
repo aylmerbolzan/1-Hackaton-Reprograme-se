@@ -32,6 +32,10 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -90,7 +94,7 @@
 
       <div id="programa" class="container">
         <section>
-          <h1>O que é o Reprograme-se</h1>
+          <h1 class="display-6">O que é o <strong>Reprograme-se</strong></h1>
           <p>
             O Reprograme-se é um programa de capacitação em programação de
             computadores e desenvolvimento de websites, totalmente gratuito e
@@ -281,7 +285,7 @@
       </div>
 
       <div class="container">
-        <h1>Notícias</h1>
+        <h1 class="display-6">Notícias</h1>
         <div id="noticias" class="container">
           <div class="notice-box">
             <img
@@ -344,7 +348,7 @@
 
       <div>[ Eventos ]</div>
       <div>
-        <h1>Depoimentos</h1>
+        <h1 class="display-6">Depoimentos</h1>
         <div id="depoimentos" class="container">
           <div class="container py-2">
             <div class="card col-xl-12 m-auto shadow">
@@ -359,9 +363,9 @@
                   Quality Assurance
                 </h6>
                 <p class="card-text fst-italic pt-3">
-                  <span>“</span> Realizei meu sonho de trabalhar em uma empresa maravilhosa.
-                  Tudo graças ao Reprograme-se que me proporcionou a base para
-                  chegar até onde estou. <span>”</span>
+                  <span>“</span> Realizei meu sonho de trabalhar em uma empresa
+                  maravilhosa. Tudo graças ao Reprograme-se que me proporcionou
+                  a base para chegar até onde estou. <span>”</span>
                 </p>
               </div>
               <div class="card-footer text-secondary">
@@ -405,14 +409,12 @@
                   Software Engineer
                 </h6>
                 <p class="card-text fst-italic pt-3">
-                  <span>“</span> Feliz por ter conquistado uma oportunidade em uma empresa parceira do Reprograme-se através do Hackaton! Agradeço demais ao programa! <span>”</span>
-
+                  <span>“</span> Feliz por ter conquistado uma oportunidade em
+                  uma empresa parceira do Reprograme-se através do Hackaton!
+                  Agradeço ao programa! <span>”</span>
                 </p>
               </div>
-              <div class="card-footer text-secondary">
-                Polo Viana - T1/2022
-
-              </div>
+              <div class="card-footer text-secondary">Polo Viana - T1/2022</div>
             </div>
           </div>
           <div class="container py-2">
@@ -428,20 +430,20 @@
                   Software Engineer
                 </h6>
                 <p class="card-text fst-italic pt-3">
-                  <span>“</span> O Reprograme-se me mostrou que é possível ser um desenvolvedor, mesmo nunca tendo contato com códigos, antes. Só tenho motivos a agradecer!
+                  <span>“</span> O Reprograme-se me mostrou que é possível ser
+                  um desenvolvedor, mesmo nunca tendo contato com códigos,
+                  antes. Só tenho motivos a agradecer!
                   <span>”</span>
                 </p>
               </div>
-              <div class="card-footer text-secondary">
-                Polo Serra - T1/2022
-              </div>
+              <div class="card-footer text-secondary">Polo Serra - T1/2022</div>
             </div>
           </div>
         </div>
       </div>
 
       <div id="faq" class="container">
-        <h1>Principais Dúvidas</h1>
+        <h1 class="display-6">Principais Dúvidas</h1>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-heading1">
@@ -1066,10 +1068,84 @@
         </div>
       </div>
 
-      <div>[ Fale Conosco ]</div>
+      <div id="contato" class="container">
+        <div
+          class="container col-10 border border-0 p-4 pt-3 rounded-4 shadow my-5"
+        >
+          <span class="display-6">Fale Conosco</span>
+          <hr />
+          <form>
+            <div class="row">
+              <div class="mb-3 input-group">
+                <label for="nome" class="input-group-text"
+                  ><i class="bi bi-person"></i
+                ></label>
+                <input
+                  required
+                  type="text"
+                  id="nome"
+                  class="form-control form-control-lg"
+                  placeholder="Nome Completo"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="mb-3 col-md-2 input-group">
+                  <label for="telefone" class="input-group-text"
+                    ><i class="bi bi-phone"></i
+                  ></label>
+                  <input
+                    required
+                    type="text"
+                    id="telefone"
+                    class="form-control form-control-lg"
+                    pattern="^\(\d{2}\)\s\d{5}-\d{4}$"
+                    placeholder="(27) 99999-9999"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="mb-3 col-md-3 input-group">
+                  <label for="perfil" class="input-group-text"
+                    ><i class="bi bi-chat-left-quote"></i
+                  ></label>
+                  <select id="perfil" class="form-select form-select-lg">
+                    <option disabled selected>Motivo do Contato</option>
+                    <option>Inscrição</option>
+                    <option>Dúvidas</option>
+                    <option>Sugestões</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="mb-3 input-group">
+                <label for="endereco" class="input-group-text"
+                  ><i class="bi bi-mailbox"></i
+                ></label>
+                <textarea
+                  required
+                  id="endereco"
+                  class="form-control form-control-lg"
+                  placeholder="Escreva aqui sua mensagem"
+                  rows="5"
+                ></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary px-4 btn-lg">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
 
       <div id="patrocinadores" class="container">
-        <h1>Empresas Parceiras</h1>
+        <h1 class="display-6">Empresas Parceiras</h1>
         <br />
         <ul>
           <li class="empresa">

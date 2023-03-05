@@ -204,10 +204,10 @@ table .contents {
 }
 
 .card-body p span {
-font-weight: bold;
-font-size: 15pt;
-color: var(--reprograme-se-cor1);
-font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 15pt;
+  color: var(--reprograme-se-cor1);
+  font-family: "Times New Roman", Times, serif;
 }
 
 .card-img-top {
@@ -257,11 +257,10 @@ font-family: 'Times New Roman', Times, serif;
 /* Versão mobile */
 
 @media (max-width: 995px) {
-   
   #noticias {
     flex-direction: column;
   }
-  
+
   #depoimentos {
     flex-direction: column;
   }
