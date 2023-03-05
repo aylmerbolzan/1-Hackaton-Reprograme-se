@@ -68,15 +68,17 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 - Começa a apresentação: https://youtu.be/p06UqMYOJw4?t=1011
 - Começa a falar sobre o trabalho: https://youtu.be/p06UqMYOJw4?t=1419
 - Link do briefing: https://ava3.cefor.ifes.edu.br/pluginfile.php/85560/mod_resource/content/1/Briefing.pdf
+- Chave de correção: https://ava3.cefor.ifes.edu.br/pluginfile.php/85561/mod_resource/content/1/Chave%20de%20Correção.pdf
 - Código base - Replit: https://replit.com/team/hackathon-2023
+- Requisitos de correção:
 
 # Recursos e Ideias
 
-- Accordion - https://github.com/aylmerbolzan/Short-Tips/tree/master/Accordion
+- ✅ Accordion - https://github.com/aylmerbolzan/Short-Tips/tree/master/Accordion
 
 - Dark theme: https://github.com/aylmerbolzan/Short-Tips/tree/master/Dark%20Theme%20-%20Bootstrap
 
-- Incluir widget vLibras: inserir o code abaixo antes do fechamento do `<body>`
+- ✅ Incluir widget vLibras: inserir o code abaixo antes do fechamento do `<body>`
 
 ```
 <div vw class="enabled">
@@ -91,14 +93,14 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
   </script>
 ```
 
-- Configurar meta tags
+- ✅ Configurar meta tags
   <br>--- Meta title - `<meta name="title" content="TÍTULO">`
   <br>--- Meta Description - `<meta name="description" content="DESCRIÇÃO">`
   <br>--- Open Graph Imagem - `<meta property="og:image" content="URL">`
 
 - Comprimir as imagens - https://tinypng.com
 
-- Incluir favicon
+- ✅ Incluir favicon
 
 - Incluir aviso de LGPD
 
@@ -108,7 +110,9 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 
 - Configurar navbar para ficar fixa
 
-- Colocar `:hover` nos `.notice-box` com transição de posição 
+- ✅ Colocar `:hover` nos `.notice-box` com transição de posição
+
+- Incluir botão para subir ao topo
 
 # Referências
 
@@ -119,6 +123,40 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 - RocketSeat: https://www.rocketseat.com.br
 - Hora de Codar: https://horadecodar.com.br
 - Oracle Next Education: https://www.oracle.com/br/education/oracle-next-education/
+
+# Chaves de Correção
+
+| Requesitos          |           |
+| ----------------- | ----------------- |
+| Incluir #Noticias | ✅ |
+| Incluir #Eventos |  |
+| Incluir #Depoimentos |  |
+| Incluir #FAQ | ✅ |
+| Incluir #Contato |  |
+| Incluir botão de redirecionamento para inscrição |  |
+| Incluir Grade Curricular | ✅ |
+| Incluir parceiros do projeto |  |
+| Usar widgets | ✅ |
+| Usar requisito extra |  |
+| Configurar responsividade | 🧱 |
+| Alternar imagens por resolução/dispositivo |  |
+| Componentes adaptando-se ao mobile | 🧱 |
+| Identação | ✅ |
+| Reutilização | ✅ |
+| Nomes coerentes das variáveis/ID/classes | ✅ |
+| Fácil navegação | 🧱 |
+| Conteúdo organizado | ✅ |
+| Fonts e elementos em bons tamanhos | ✅ |
+| Bom tempo de carregamento |  |
+| Boa semântica no HTML | ✅ |
+| Meta informations bem configuradas | ✅ |
+| CSS de qualidade, com reuso | ✅ |
+| Seletores e propriedades modernas | ✅ |
+| JS bem desenvolvido |  |
+| JS organizado por funções |  |
+| Design coerente | ✅ |
+| Utilização do localStorage |  |
+
 
 # Logs
 
@@ -131,9 +169,10 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 - Header finalizado
 - #Notícias estruturado
 
-
 ### [ 04/03 ]
 
-- Inclusão do FAQ
-- Estilização do FAQ
+- Inclusão do #FAQ
+- Estilização do #FAQ
 - Inclusão de Hero Section
+- Inclusão de #Programa
+- Inclusão de grades curriculares
