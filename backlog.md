@@ -135,7 +135,7 @@ _<p style="text-align:right;">https://reprograme-se.org.br</p>_
 | Incluir #Contato |  |
 | Incluir botão de redirecionamento para inscrição |  |
 | Incluir Grade Curricular | ✅ |
-| Incluir parceiros do projeto |  |
+| Incluir parceiros do projeto | ✅ |
 | Usar widgets | ✅ |
 | Usar requisito extra |  |
 | Configurar responsividade | 🧱 |
