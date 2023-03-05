@@ -26,21 +26,9 @@ main div {
   box-shadow: 2px 2px 4px rgba(138, 138, 138, 0.3);
 }
 
-.header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .link-nav {
-  padding: 10px;
-  margin-bottom: 10px;
-  color: #9799a6;
-  background-color: #fff;
-  text-decoration: none;
-  transition: 0.5s;
-  display: block;
-  border-bottom: 2px solid #abadb9;
+  margin: 0 5px 10px;
+  border-bottom: 2px solid transparent;
 }
 
 .link-nav:hover {
@@ -58,11 +46,6 @@ main div {
 #logo-nav {
   width: 8rem;
   margin-top: 3px;
-}
-
-.header-nav {
-  display: flex;
-  gap: 8px;
 }
 
 /* Hero Section */
@@ -174,9 +157,8 @@ table .contents {
   display: flex;
 }
 
-
 #noticias img {
-  width: 6rem;
+  width: 90%;
 }
 
 .notice-box {
@@ -250,35 +232,6 @@ table .contents {
 /* Versão mobile */
 
 @media (max-width: 995px) {
-  .header .container {
-    flex-direction: column;
-    align-items: initial;
-    text-align: center;
-  }
-
-  .header-nav {
-    flex-direction: column;
-    width: auto;
-  }
-
-  .link-nav {
-    border: 1px solid #9799a6;
-    width: auto;
-    margin: 0 0 0 10px;
-  }
-
-  .link-nav:hover {
-    color: #656670;
-    border-bottom: 2px solid;
-    border-image: linear-gradient(
-        to right,
-        var(--reprograme-se-cor1),
-        var(--reprograme-se-cor2),
-        var(--reprograme-se-cor3)
-      )
-      1;
-  }
-
   #noticias {
     flex-direction: column;
   }
