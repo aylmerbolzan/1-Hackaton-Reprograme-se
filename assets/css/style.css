@@ -58,7 +58,7 @@ main div {
         rgba(194, 127, 177, 0) 100%
       )
       center center / cover no-repeat,
-    url(/assets/img/background-herosection.jpg);
+    url(./assets/img/background-herosection.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
