@@ -1,0 +1,9 @@
+O projeto desenvolvido para o programa Reprograme-se consistiu na criação de uma nova página para o site do programa, que tem como objetivo capacitar jovens e adultos para a área de tecnologia. O objetivo da página era apresentar informações sobre o programa, e seus detalhes, trazendo o máximo de informações ao usuário.
+
+Para o desenvolvimento da página, foram utilizadas tecnologias web como HTML, CSS, Bootstrap e JavaScript. O layout foi criado levando em consideração as cores e elementos já presentes no site do programa, de modo a manter a identidade visual da marca.
+
+Uma das principais preocupações durante o desenvolvimento da página foi a responsividade, ou seja, a capacidade de se adaptar a diferentes dispositivos, como computadores, tablets e smartphones. Para isso, foram utilizadas as técnicas de design responsivo, como a definição de breakpoints Bootstrap, garantindo uma boa experiência de navegação para os usuários em qualquer dispositivo.
+
+Outro aspecto importante do desenvolvimento da página foi a acessibilidade, garantindo que o conteúdo pudesse ser acessado por pessoas com deficiência auditiva. Para isso, foram utilizadas widgets de acessibilidade, como o uso de descrições alternativas para imagens e a utilização do recurso vLibras.
+
+Por fim, a página foi testada em diferentes navegadores e dispositivos, a fim de garantir sua funcionalidade e adequação aos diferentes cenários de uso. O resultado final foi uma página informativa e atrativa, que cumpriu com os objetivos estabelecidos pela equipe do programa Reprograme-se.
